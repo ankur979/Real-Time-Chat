@@ -1,0 +1,76 @@
+.loginPage {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    display: flex;
+    width: 23vmax;
+    height: 60vmin;
+    flex-direction: column;
+    padding: 20px;
+    -webkit-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 2px 5px 0px rgba(0, 0, 0, 0.75);
+   
+}
+.login-box h1{
+    text-align: center;
+    color: rgb(186, 252, 147);
+}
+.login-box label{
+    font-size: 1.5vmax;
+    color: rgb(92, 93, 93);
+    margin-top: 2vmax;
+    margin-bottom: 0.5vmax;
+}
+
+.login-box input{
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 1.3vmax;
+    border-bottom: 1px solid black;
+    padding: 0.5vmax 0.3vmax;
+    color: rgb(164, 165, 165);
+   
+}
+.toggle{
+   position: relative;
+   float: right;
+   margin-top: -28px;
+   cursor: pointer;
+   font-size: 1vmax;
+}
+.forget-password{
+    float: right;
+    text-decoration: none;
+    color: rgb(111, 110, 110);
+    font-size: 1vmax;
+}
+
+
+.login-button{
+    background-color: aqua;
+    color: white;
+    font-size: 2vmax;
+    border: none;
+    margin-top: 1vmax;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.signup-page{
+    margin-top: 1vmax;
+    font-size: 1vmax;
+    color: rgb(130, 127, 127);
+    text-align: center;
+}
+.signup-page a{
+    color: rgb(179, 179, 253);
+}

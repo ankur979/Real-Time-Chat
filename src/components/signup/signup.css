@@ -1,0 +1,96 @@
+.sign-up {
+   
+   /* background: linear-gradient(to left,#74eb9c,#f5a2e1);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.sign-box {
+    display: flex;
+    width: 25vmax;
+    height: 68vh;
+    flex-direction: column;
+    padding: 1vmax;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+}
+
+.sign-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.sign-box h1 {
+    align-self: center;
+    font-size: 30px;
+    text-shadow: 0cqmax;
+}
+
+.sign-group input {
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(98, 98, 98);
+    margin-top: 2px;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(95, 94, 94);
+}
+.signup-button button{
+    background: linear-gradient(to left,#74eb9c,#f5a2e1);
+    background: linear-gradient(to left,#74ebd5,#9face6);
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sign-box p{
+    align-items: center;
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+    margin-top: 15px;
+    text-align: center;
+}
+.sign-box p a {
+color: rgb(171, 154, 133);
+}
+@media only screen and (max-width: 900px) {
+    .sign-box {
+        width: 80%;
+        height: 50vh;
+    }
+  }
+@media only screen and (max-width: 500px) {
+    .sign-box {
+        width: 94%;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .sign-box {
+        width: 94%;
+    }
+    .sign-box h1 {
+        text-align: center;
+        font-size: 20px;
+    }
+    .sign-group input {
+        font-size: 15px;
+    }
+    .sign-box p{
+        align-items: center;
+        font-size: 10px;
+    }
+  }

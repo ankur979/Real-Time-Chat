@@ -1,0 +1,14 @@
+.navbar{
+    background: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: white;
+    padding: 0 3vmax;
+}
+
+.navbar div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
