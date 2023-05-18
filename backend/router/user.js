@@ -95,4 +95,15 @@ router.get("/allUser",fatchUser, async (req, res) => {
     }
 })
 
+router.get("/friend/:id", fatchUser, async (req, res) => {
+    try {
+        let user = await User.findById(req.params.id).select("-password");
+       // delete user.password;
+        res.status(200).json( user );
+    } catch (error) {
+        console.error(error);
+        res.status(500).json(error);
+    }
+})
+
 module.exports = router

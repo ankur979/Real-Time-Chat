@@ -73,6 +73,10 @@
     font-size: 25px;
     margin-left: 10px;
 }
+.friend{
+    background: rgb(252, 249, 249);
+    transition: 0.5s;
+}
 
 .friendImg {
     width: 50px;
@@ -109,23 +113,29 @@
     margin-top: 10px;
     overflow-y: scroll;
      height: calc(78vh - 10px); 
+     padding: 0 1vmax;
+}
+
+.chating-start{
+    font-size: 6vmax;
+    color: #fbf7f2;
 }
 
 .chating .user-text {
-    background-color: brown;
+    background-color: rgb(134, 251, 123);
     justify-self: flex-end;
     align-self: flex-end;
     max-width: 60%;
-    padding: 5px;
+    padding: 10px 15px;
     border-radius: 15px 15px 0 15px;
     margin-top: 5px;
 }
 
 .chating .friend-text {
-    background-color: rgb(142, 94, 246);
+    background-color: rgb(254, 162, 219);
     align-self: flex-start;
     max-width: 60%;
-    padding: 5px;
+    padding: 7px 10px;
     border-radius: 0 15px 15px 15px;
     margin-top: 5px;
 }
