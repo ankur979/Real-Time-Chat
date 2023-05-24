@@ -20,7 +20,7 @@ const Login = () => {
         if (token) {
             navigate("/")
         }
-    }, [])
+    }, [navigate])
 
     const submitHandler = async () => {
         axios.post(`${baseURL}/user/login`, {

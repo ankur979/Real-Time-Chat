@@ -15,7 +15,7 @@ const Signup = () => {
         if (token) {
             navigate("/")
         }
-    }, [])
+    }, [navigate])
 
     const userDataHandle = (e) => {
         // console.log({ ...userData, [e.target.name]: e.target.value })
