@@ -13,6 +13,7 @@ node_modules
 
 # misc
 backend/.env.SECRET
+/backend/.env
 .env
 .DS_Store
 .env.local
