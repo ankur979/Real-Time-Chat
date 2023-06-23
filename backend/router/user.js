@@ -97,6 +97,7 @@ router.get("/allUser",fatchUser, async (req, res) => {
 
 router.get("/friend/:id", fatchUser, async (req, res) => {
     try {
+         
         let user = await User.findById(req.params.id).select("-password");
        // delete user.password;
         res.status(200).json( user );
